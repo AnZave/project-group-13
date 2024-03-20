@@ -1,3 +1,27 @@
+/* Fonts styles */
+@font-face {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  src: url(/src/fonts/Gilroy/Gilroy-Semibold.woff), 
+  url(/src/fonts/Gilroy/Gilroy-Semibold.woff2);
+}
+
+@font-face {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  src: url(/src/fonts/Gilroy/Gilroy-Medium.woff),
+  url(/src/fonts/Gilroy/Gilroy-Medium.woff2);
+}
+
+@font-face {
+  font-family: "Gilroy", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  src: url(/src/fonts/Gilroy/Gilroy-Regular.woff),
+    url(/src/fonts/Gilroy/Gilroy-Regular.woff2);
+}
 /* Reset styles */
 h1,
 h2,
