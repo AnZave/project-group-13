@@ -22,6 +22,13 @@
   src: url(/src/fonts/Gilroy/Gilroy-Regular.woff),
     url(/src/fonts/Gilroy/Gilroy-Regular.woff2);
 }
+/* Root colors */
+:root {
+  --main: #0c0c0c;
+  --accent: #3350e9;
+  --background: #fbfbfb;
+  --cards: #f3f3f3;
+}
 /* Reset styles */
 h1,
 h2,
@@ -60,34 +67,52 @@ img {
 
 body {
   font-family: "Gilroy", sans-serif;
-  font-weight: normal;
 }
 
 .container {
-  max-width: 375px;
+  max-width: 320px;
   margin: 0 auto;
   font-family: "Gilroy", sans-serif;
   font-weight: normal;
 }
 
-@media only screen and (min-width: 320px) and (max-width:375px) {
+@media only screen and (min-width: 0px) and (max-width:375px) {
   .container {
-    max-width: 375px;
-    padding: 0 20px;
+    max-width: 320px;
+    padding: 0 15px;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding: 0 32px;
+    padding: 0 15px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    padding: 0 65px;
+    padding: 0 16px;
+  }
+}
+
+.section {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+@media only screen and (min-width: 768pxpx) {
+  .section {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .section {
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
 }
 
