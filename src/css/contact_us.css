@@ -43,6 +43,7 @@ border-radius: 12px;
 padding: 12px 12px 54px 14px;
 resize: none;
 height: 84px;
+margin-bottom: 28px;
 }
 .contact-textarea-form::placeholder{
   font-weight: 400;
@@ -52,5 +53,18 @@ color: #0c0c0c;
 }
 
 .contact-form-btn{
-
+  border-radius: 16px;
+  padding: 12px 50px;
+  min-width: 134px;
+  height: 42px;
+  background-color: #3350e9;
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.29;
+text-align: center;
+color: #fbfbfb;
+border: none;
+}
+.contact-form-btn:hover{
+  background-color:#1f3cd4;
 }
