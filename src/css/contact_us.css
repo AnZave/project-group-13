@@ -1,3 +1,5 @@
+/* FORM SECTION CONTACT_US */
+
 .title-page-contact-us{
 font-weight: 600;
 font-size: 32px;
@@ -5,14 +7,14 @@ line-height: 1;
 letter-spacing: -0.02em;
 color: #0c0c0c;
 margin-bottom: 24px;
+
 }
 .block-form{
 border-radius: 30px;
 padding: 48px 28px;
-width: 335px;
-
 background-color:  #f3f3f3;
 }
+
 
 .description-form{
 font-weight: 500;
@@ -22,6 +24,9 @@ letter-spacing: -0.02em;
 color: rgba(12, 12, 12, 0.7);
 margin-bottom: 28px;
 }
+
+
+
 .contact-form-input{
   border: 1px solid rgba(12, 12, 12, 0.15);
 border-radius: 12px;
@@ -30,12 +35,33 @@ width: 100%;
 height: 42px;
 margin-bottom: 18px;
 }
+
 .contact-form-input::placeholder{
 font-weight: 400;
 font-size: 14px;
 line-height: 1.29;
 color: #0c0c0c;
+
 }
+
+
+
+.contact-form-input:focus{
+  border: 1px solid #3350e9;
+  outline: none;
+  }
+  .contact-form-input:hover{
+    border: 1px solid #3350e9;
+
+  }
+  .contact-textarea-form:focus{
+    border: 1px solid #3350e9;
+  outline: none;
+  }
+  .contact-textarea-form:hover{
+    border: 1px solid #3350e9;
+  }
+
 .contact-textarea-form{
   width: 100%;
   border: 1px solid rgba(12, 12, 12, 0.15);
@@ -45,6 +71,8 @@ resize: none;
 height: 84px;
 margin-bottom: 28px;
 }
+
+
 .contact-textarea-form::placeholder{
   font-weight: 400;
 font-size: 14px;
@@ -65,6 +93,59 @@ text-align: center;
 color: #fbfbfb;
 border: none;
 }
+
+
 .contact-form-btn:hover{
   background-color:#1f3cd4;
 }
+/* FORM SECTION CONTACT_US 768 */
+@media only screen and (min-width: 768px) {
+
+.title-page-contact-u{
+  font-size: 48px;
+line-height: 0.92;
+margin-bottom: 40px;
+}
+.block-form{border-radius: 50px;
+padding: 50px 122px;
+
+}
+.description-form{
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  margin-bottom: 32px;
+}
+.contact-form-input{
+  padding: 16px 16px 16px 18px;
+  height: 52px;
+
+}
+
+.contact-form-input::placeholder{
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.contact-textarea-form{
+  padding: 16px 16px 54px 16px;
+margin-bottom: 32px;
+  height: 90px;
+}
+.contact-form-btn{
+  padding: 17px 63px;
+  min-width: 160px;
+  height: 52px;
+}
+}
+
+
+/* FORM SECTION CONTACT_US 1280 */
+
+@media only screen and (min-width: 1280px) {
+  .block-form{
+    width: 580px;
+  }
+}
+
+ /* IMG SECTION CONTACT_US */
