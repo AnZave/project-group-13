@@ -67,6 +67,8 @@ img {
 
 body {
   font-family: "Gilroy", sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* mobile - без медіа правила, щоб це правило примінялося від 0 до 768 */
@@ -93,7 +95,7 @@ body {
   }
 }
 
-.section {
+/* .section {
   padding-bottom: 30px;
   padding-top: 30px;
 }
@@ -110,7 +112,7 @@ body {
     padding-bottom: 50px;
     padding-top: 50px;
   }
-}
+} */
 
 .visually-hidden {
   position: absolute;
