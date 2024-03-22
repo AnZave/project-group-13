@@ -1,3 +1,4 @@
+/* FORM SECTION CONTACT_US */
 .title-page-contact-us{
 font-weight: 600;
 font-size: 32px;
@@ -35,7 +36,24 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.29;
 color: #0c0c0c;
+
 }
+.contact-form-input:focus{
+  border: 1px solid #3350e9;
+  outline: none;
+  }
+  .contact-form-input:hover{
+    border: 1px solid #3350e9;
+
+  }
+  .contact-textarea-form:focus{
+    border: 1px solid #3350e9;
+  outline: none;
+  }
+  .contact-textarea-form:hover{
+    border: 1px solid #3350e9;
+  }
+
 .contact-textarea-form{
   width: 100%;
   border: 1px solid rgba(12, 12, 12, 0.15);
@@ -68,3 +86,21 @@ border: none;
 .contact-form-btn:hover{
   background-color:#1f3cd4;
 }
+/* FORM SECTION CONTACT_US 768 */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+
+/* FORM SECTION CONTACT_US 1280 */
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 16px;
+  }
+}
+
+ /* IMG SECTION CONTACT_US */
