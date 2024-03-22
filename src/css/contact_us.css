@@ -145,6 +145,7 @@ margin-bottom: 32px;
 @media only screen and (min-width: 1280px) {
   .block-form{
     width: 580px;
+    padding: 50px 60px;
   }
 }
 
