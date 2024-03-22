@@ -69,31 +69,27 @@ body {
   font-family: "Gilroy", sans-serif;
 }
 
+/* mobile - без медіа правила, щоб це правило примінялося від 0 до 768 */
 .container {
-  max-width: 320px;
+  max-width: 375px;
+  min-width: 320px; 
+  padding: 0 20px;
   margin: 0 auto;
-  font-family: "Gilroy", sans-serif;
-  font-weight: normal;
 }
 
-@media only screen and (min-width: 0px) and (max-width:375px) {
-  .container {
-    max-width: 320px;
-    padding: 0 15px;
-  }
-}
-
+/* tablet */
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding: 0 15px;
+    padding: 0 32px;
   }
 }
 
+/* desktop */
 @media only screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    padding: 0 16px;
+    padding: 0 65px;
   }
 }
 
