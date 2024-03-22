@@ -67,6 +67,8 @@ img {
 
 body {
   font-family: "Gilroy", sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* mobile - без медіа правила, щоб це правило примінялося від 0 до 768 */
