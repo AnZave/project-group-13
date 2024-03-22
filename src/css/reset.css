@@ -93,7 +93,7 @@ body {
   }
 }
 
-.section {
+/* .section {
   padding-bottom: 30px;
   padding-top: 30px;
 }
@@ -110,7 +110,7 @@ body {
     padding-bottom: 50px;
     padding-top: 50px;
   }
-}
+} */
 
 .visually-hidden {
   position: absolute;
