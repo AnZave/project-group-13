@@ -12,7 +12,6 @@ margin-bottom: 24px;
 .block-form{
 border-radius: 30px;
 padding: 48px 28px;
-width: 335px;
 background-color:  #f3f3f3;
 }
 
@@ -101,10 +100,7 @@ border: none;
 }
 /* FORM SECTION CONTACT_US 768 */
 @media only screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    margin: 0 auto;
-  }
+
 .title-page-contact-u{
   font-size: 48px;
 line-height: 0.92;
@@ -112,7 +108,7 @@ margin-bottom: 40px;
 }
 .block-form{border-radius: 50px;
 padding: 50px 122px;
-width: 704px;
+
 }
 .description-form{
   font-size: 16px;
@@ -121,7 +117,7 @@ width: 704px;
   margin-bottom: 32px;
 }
 .contact-form-input{
-  padding: 16px 398px 16px 18px;
+  padding: 16px 16px 16px 18px;
   height: 52px;
 
 }
@@ -132,7 +128,7 @@ width: 704px;
 }
 
 .contact-textarea-form{
-  padding: 16px 315px 54px 16px;
+  padding: 16px 16px 54px 16px;
 margin-bottom: 32px;
   height: 90px;
 }
@@ -147,9 +143,8 @@ margin-bottom: 32px;
 /* FORM SECTION CONTACT_US 1280 */
 
 @media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 0 16px;
+  .block-form{
+    width: 580px;
   }
 }
 
