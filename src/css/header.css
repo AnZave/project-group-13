@@ -82,12 +82,13 @@
     .nav-list-item:is(.current, :hover, :focus) {
         color: #0c0c0c;
     }
-        
+    
     .nav-list-item::after {
         content: "";
-        position: relative;
-        left: 0;
+        position: absolute;
         display: block;
+        left: 50%;
+        margin-left: -4px;
         width: 8px;
         height: 8px;
         border-radius: 4px;
