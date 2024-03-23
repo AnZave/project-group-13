@@ -66,6 +66,8 @@
     background-color: 0;
 }
 .mob-menu-close-icon {
+    position: relative;
+    left: auto;
     stroke-width: 2.50px;
     stroke: #0a0909;
 }
