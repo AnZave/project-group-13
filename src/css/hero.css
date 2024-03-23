@@ -111,7 +111,11 @@
     left: 82px;
   }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
+  .page-hero-description-title {
+    font-size: 72px;
+  }
+
   .hero-person-list {
     width: 146px;
   }
