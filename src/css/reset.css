@@ -1,6 +1,6 @@
 /* Fonts styles */
 @font-face {
-  font-family: "Gilroy", sans-serif;
+  font-family: "Gilroy";
   font-weight: 600;
   font-style: normal;
   src: url(/src/fonts/Gilroy/Gilroy-Semibold.woff), 
@@ -8,7 +8,7 @@
 }
 
 @font-face {
-  font-family: "Gilroy", sans-serif;
+  font-family: "Gilroy";
   font-weight: 500;
   font-style: normal;
   src: url(/src/fonts/Gilroy/Gilroy-Medium.woff),
@@ -16,7 +16,7 @@
 }
 
 @font-face {
-  font-family: "Gilroy", sans-serif;
+  font-family: "Gilroy";
   font-weight: normal;
   font-style: normal;
   src: url(/src/fonts/Gilroy/Gilroy-Regular.woff),
