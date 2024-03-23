@@ -1,0 +1,72 @@
+/* ========= Page Hero styles ========= */
+.page-hero {
+  padding-top: 60px;
+}
+
+.page-hero-description-title {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 20px;
+  width: 335px;
+  left: 0;
+}
+.page-hero-description-title-blue {
+  color: #3350e9;
+}
+.page-hero-description-text {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  padding-bottom: 28px;
+  width: 335px;
+  left: 0;
+}
+.hero-people-scroll {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 28px;
+}
+.hero-scroll-link {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0c0c0c;
+}
+.hero-person-list {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .page-hero-description-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .page-hero-description-title {
+    font-size: 70px;
+    line-height: 0.86;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    width: 557px;
+  }
+  .page-hero-description-text {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 480px;
+  }
+  .hero-people-scroll {
+    flex-direction: column;
+  }
+}
