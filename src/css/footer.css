@@ -40,13 +40,13 @@
   margin-bottom: 20px;
 }
 
-.media__list {
+.media-list {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
 }
 
-.media__item {
+.media-item {
   border: 1px solid rgba(251, 251, 251, 0.1);
   border-radius: 10px;
   padding: 8px;
@@ -59,24 +59,24 @@
 }
 
 
-.media__item:hover,
-.media__item:focus {
+.media-item:hover,
+.media-item:focus {
 
 }
 
-.media__link {
+.media-link {
   fill: var(--background);
   opacity: .8;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.media__item:hover .media__link,
-.media__item:focus .media__link{
+.media-item:hover .media-link,
+.media-item:focus .media-link{
   opacity: 1;
 }
 
 
-.address__tel {
+.address-tel {
   display: inline-block;
   padding: 14px 20px;
   min-width: 152px;
@@ -98,7 +98,7 @@
 }
 
 
-.footer__description {
+.footer-description {
   width: 280px;
   margin: 0 auto;
   font-weight: 600;
@@ -110,7 +110,6 @@
   
 }
 
-/* ______________ */
 .footer-wrapper-two {
   font-family: "Gilroy", sans-serif;
   font-weight: 500;
@@ -121,14 +120,14 @@
 
 }
 
-.nav__footer{
+.nav-footer{
   display: flex;
   justify-content: space-between;
   position: relative;
   margin-bottom: 48px;
 }
 
-.nav__footer::after {
+.nav-footer::after {
   content: '';
   display: block;
   position: absolute;
@@ -140,21 +139,21 @@
 }
 
 
-.nav__list {
+.nav-list {
   max-width: 147px;
   display: flex;
   flex-wrap: wrap;
   gap: 8px 16px;
 }
 
-.nav__link {
+.nav-link {
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33333;
   color: var(--background);
 }
 
-.address__city {
+.address-city {
   max-width: 88px;
   font-weight: 500;
   font-size: 12px;
@@ -168,7 +167,7 @@
   opacity: 0.9;
 }
 
-.copyright__description {
+.copyright-description {
   font-weight: 500;
   font-size: 10px;
   line-height: 1.4;
@@ -178,12 +177,12 @@
 }
 
 
-.copyrigth-rules__list {
+.copyrigth-rules-list {
   display: flex;
   gap: 20px;
 }
 
-.copyrigth-rules__list {
+.copyrigth-rules-list {
   color: rgba(251, 251, 251, 0.5);
   font-size: 10px;
   font-weight: 500;
@@ -191,19 +190,8 @@
   letter-spacing: -0.02em;
 }
 
-.copyrigth-rules__link {
-  
-  
-}
 
 
-
-/* Media @media only screen and (min-width: 768pxpx) {
-  .section {
-    padding-bottom: 40px;
-    padding-top: 40px;
-  }
-} */
 
 
 @media only screen and (min-width: 768px) {
@@ -222,21 +210,21 @@
     font-size: 20px;
   }
   
-  .media__list {
+  .media-list {
     margin-bottom: 86px;
   }
   
-  .media__item {
+  .media-item {
     width: 36px;
     height: 36px;
   }
   
-  .media__list-icon {
+  .media-list-icon {
     width: 20px;
     height: 20px;
   }
   
-  .address__tel {
+  .address-tel {
     position: absolute;
     top: 0;
     right: 0;
@@ -251,42 +239,36 @@
     margin: 0;
   }
   
-  .footer__description {
+  .footer-description {
     width: 524px;
     font-size: 28px;
     line-height: 1.14286;
   }
   
 
-  
-  /* .section {
-    padding-bottom: 40px;
-    padding-top: 40px;
-  } */
 
 
-
-.nav__footer{
+.nav-footer{
   margin-bottom: 56px;
 }
 
-.nav__footer::after {
+.nav-footer::after {
   bottom: -28px;
 }
 
 
-.nav__list {
+.nav-list {
   max-width: 100%;
   flex-wrap: nowrap;
   gap: 19px;
 }
 
-.nav__link {
+.nav-link {
   font-size: 14px;
   line-height: 1.28571;
 }
 
-.address__city {
+.address-city {
   max-width: 166px;
   font-size: 14px;
   line-height: 1.28571;
@@ -299,18 +281,18 @@
 
 }
 
-.copyright__description {
+.copyright-description {
   font-size: 14px;
   line-height: 1.28571;
 }
 
 
-.copyrigth-rules__list {
+.copyrigth-rules-list {
   display: flex;
   gap: 20px;
 }
 
-.copyrigth-rules__list {
+.copyrigth-rules-list {
   font-size: 14px;
   line-height: 1.28571;
 }
@@ -318,13 +300,6 @@
 
 }
 
-
-/* Media @media only screen and (min-width: 1280px) {
-  .section {
-    padding-bottom: 50px;
-    padding-top: 50px;
-  }
-} */
 
 
 @media only screen and (min-width: 1280px) {
@@ -343,18 +318,18 @@
     padding: 0;
   }
 
-  .footer__description {
+  .footer-description {
     position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
   }
 
- .nav__list {
+ .nav-list {
   gap: 40px;
  }
 
- .nav__item {
+ .nav-item {
   font-size: 14px;
   line-height: 1.28571;
  }
