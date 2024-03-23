@@ -1,16 +1,25 @@
+.catalog-page {
+padding-bottom: 60px;
+}
+
 .catalog-title {
+font-weight: 600;
+font-size: 32px;
+line-height: 1;
+letter-spacing: -0.02em;
+color: #0c0c0c;
 margin-bottom: 24px;
 }
 
 .catalog-list {
-    margin-bottom: 40px;
+margin-bottom: 40px;
 }
 
 .catalog-item {
 border: 1px solid rgba(12, 12, 12, 0.05);
 border-radius: 30px;
 width: 335px;
-height: 364px;
+min-height: 364px;
 background: #f3f3f3;  
 display: flex;
 justify-content: center;
@@ -19,11 +28,28 @@ margin-bottom: 20px;
 }
 
 .catalog-item:last-child {
-    margin-bottom: 0px;
+margin-bottom: 0px;
 }
 
 .catalog-item:not(:nth-child(-n+4)) {
-    display: none;
+display: none;
+}
+
+.catalog-item-card {
+width: 279px;
+height: 316px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.catalog-card-text {
+display: flex;
+flex-direction: column;
+margin-top: 10px;
+width: 279px;
+height: 44px;
 }
 
 .catalog-item-card-title {
@@ -32,6 +58,8 @@ font-size: 16px;
 line-height: 1.25;
 letter-spacing: -0.02em;
 color: #0c0c0c;
+margin-bottom: 8px;
+overflow: hidden;
 }
 
 .catalog-item-card-text {
@@ -41,6 +69,7 @@ line-height: 1.29;
 letter-spacing: -0.02em;
 color: rgba(12, 12, 12, 0.5);
 }
+
 .catalog-btn {
 border-radius: 16px;
 padding: 15px 44px;
@@ -56,3 +85,49 @@ border: none;
 display: flex;
 margin: 0 auto;
 }
+
+@media screen and (min-width: 768px) {
+    .catalog-title {
+        font-size: 48px;
+        line-height: 0.92;
+        margin-bottom: 40px;
+        }
+
+    .catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    row-gap: 32px;
+    flex-direction: row;
+    }
+    
+    .catalog-item {
+    width: 344px;
+    min-height: 414px;
+    width: calc((100% - 16px) / 2);
+    margin-bottom: 0;
+    }
+    
+    .catalog-item:not(:nth-child(-n+4)) {
+        display: flex;
+        }
+
+    .catalog-item-card {
+    width: 280px;
+    height: 366px;
+    }
+    
+    .catalog-item-card-title {
+    font-size: 20px;
+    line-height: 1;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .catalog-item {
+    width: 368px;
+    width: calc((100% - 46px) / 3);
+    }
+    .catalog-item-card {
+    width: 304px;
+    }
+    }
