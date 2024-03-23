@@ -6,7 +6,7 @@
   
   .advert-bg {
       width: 100%;
-      max-width: 335px;
+      max-width: 288px;
       max-height: 363px;
       background-color: #0C0C0C;
       background-image: url('../img/advertisement/advertisement-mob.webp');
@@ -21,7 +21,7 @@
   /* CLASS FOR TEXT THE SECTION */
   
   .advert-text {
-      font-family: "Gilroy", sans-serif;
+      /*  font-family: "Gilroy", sans-serif;*/
       color: #FBFBFB;
       font-weight: 600;
       font-size: 32px;
