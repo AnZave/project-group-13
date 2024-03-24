@@ -66,7 +66,7 @@ img {
 }
 
 body {
-  font-family: "Gilroy";
+  font-family: 'Gilroy';
   font-weight: normal;
   font-style: normal;
 }
@@ -74,7 +74,7 @@ body {
 /* mobile - без медіа правила, щоб це правило примінялося від 0 до 768 */
 .container {
   max-width: 375px;
-  min-width: 320px; 
+  min-width: 320px;
   padding: 0 20px;
   margin: 0 auto;
 }
