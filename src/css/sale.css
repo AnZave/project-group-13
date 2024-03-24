@@ -1,0 +1,229 @@
+.section-sale {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.section-sale-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--main);
+  margin-bottom: 24px;
+}
+
+.section-sale-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.section-sale-photo-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.section-sale-img-list {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.section-sale-img-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 14px;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+  background-color: var(--cards);
+}
+
+.section-sale-img-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  background-color: var(--cards);
+}
+
+.section-sale-description {
+  border-radius: 30px;
+  background-color: var(--accent);
+  padding: 48px 28px;
+}
+
+.section-sale-subtitle {
+  max-width: 279px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: var(--background);
+  margin-bottom: 10px;
+}
+
+.section-sale-serial {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+  margin-bottom: 20px;
+}
+
+.section-sale-price {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 28px;
+}
+
+.section-sale-new-price {
+  padding: 8px 12px;
+  border-radius: 8px;
+  background-color: rgba(251, 251, 251, 0.1);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(--background);
+}
+
+.section-sale-old-price {
+  padding: 9px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.section-sale-text-description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.7);
+  margin-bottom: 28px;
+}
+
+.section-sale-benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.section-sale-benefits-item {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: var(--background);
+}
+
+@media only screen and (min-width: 768px) {
+  .section-sale {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .section-sale-title {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+  }
+
+  .section-sale-wrapper {
+    gap: 40px;
+  }
+
+  .section-sale-img-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .section-sale-img-item {
+    max-width: 132px;
+    padding: 16px 18px;
+    border-radius: 20px;
+  }
+
+  .section-sale-img-preview {
+    max-width: 552px;
+    padding: 80px 112px;
+    border-radius: 50px;
+  }
+
+  .section-sale-description {
+    border-radius: 50px;
+    padding: 60px;
+  }
+
+  .section-sale-subtitle {
+    max-width: 436px;
+    font-size: 32px;
+    line-height: 1.13;
+  }
+
+  .section-sale-price {
+    margin-bottom: 30px;
+  }
+
+  .section-sale-new-price {
+    font-size: 20px;
+    line-height: 1;
+  }
+
+  .section-sale-text-description {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 40px;
+  }
+
+  .section-sale-benefits-list {
+    max-width: 398px;
+  }
+
+  .section-sale-benefits-item {
+    font-size: 14px;
+    line-height: 1.29;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .section-sale {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .section-sale-img-item {
+    height: 100%;
+  }
+
+  .section-sale-img-preview {
+    max-width: 428px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .section-sale-description {
+    max-width: 530px;
+  }
+
+  .section-sale-subtitle {
+    max-width: 389px;
+  }
+
+  .section-sale-price {
+    margin-bottom: 20px;
+  }
+
+  .section-sale-text-description {
+    margin-bottom: 50px;
+  }
+}
