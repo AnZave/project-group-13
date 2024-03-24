@@ -1,79 +1,104 @@
-<section id="sele" class="section section-sale">
+<section id="sale" class="section section-sale">
   <div class="container">
     <h2 class="section-sale-title">Sale</h2>
-    <div class="section-sale-container">
-      <div class="section-sale-img-wrapper">
-        <picture class="section-sale-img">
+    <div class="section-sale-wrapper">
+      <div class="section-sale-photo-wrapper">
+        <ul class="section-sale-img-list">
+          <li class="section-sale-img-item">
+            <picture>
+              <source
+                srcset="
+                  ./img/sale/front-a-tab.webp    1x,
+                  ./img/sale/front-a-tab@2x.webp 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/sale/front-a-mob.webp    1x,
+                  ./img/sale/front-a-mob@2x.webp 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                src="./img/sale/front-a-mob.webp"
+                alt="Watch photo front view"
+              />
+            </picture>
+          </li>
+          <li class="section-sale-img-item">
+            <picture>
+              <source
+                srcset="
+                  ./img/sale/front-b-tab.webp    1x,
+                  ./img/sale/front-b-tab@2x.webp 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/sale/front-b-mob.webp    1x,
+                  ./img/sale/front-b-mob@2x.webp 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                src="./img/sale/front-b-mob.webp"
+                alt="Watch photo front view 2"
+              />
+            </picture>
+          </li>
+          <li class="section-sale-img-item">
+            <picture>
+              <source
+                srcset="
+                  ./img/sale/side-tab.webp    1x,
+                  ./img/sale/side-tab@2x.webp 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/sale/side-mob.webp    1x,
+                  ./img/sale/side-mob@2x.webp 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img src="./img/sale/side-mob.webp" alt="Watch photo side view" />
+            </picture>
+          </li>
+          <li class="section-sale-img-item">
+            <picture>
+              <source
+                srcset="
+                  ./img/sale/back-tab.webp    1x,
+                  ./img/sale/back-tab@2x.webp 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./img/sale/back-mob.webp    1x,
+                  ./img/sale/back-mob@2x.webp 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img src="./img/sale/back-mob.webp" alt="Watch photo back view" />
+            </picture>
+          </li>
+        </ul>
+        <picture class="section-sale-img-preview">
           <source
-            srcset="
-              ./img/sale/front-a-tab.webp    1x,
-              ./img/sale/front-a-tab@2x.webp 2x
-            "
+            srcset="./img/sale/sale-tab.webp 1x, ./img/sale/sale-tab@2x.webp 2x"
             media="(min-width: 768px)"
           />
           <source
-            srcset="
-              ./img/sale/front-a-mob.webp    1x,
-              ./img/sale/front-a-mob@2x.webp 2x
-            "
+            srcset="./img/sale/sale-mob.webp 1x, ./img/sale/sale-mob@2x.webp 2x"
             media="(max-width: 767px)"
           />
-          <img src="./img/sale/front-a-mob.webp" alt="Watch photo front view" />
-        </picture>
-        <picture class="section-sale-img">
-          <source
-            srcset="
-              ./img/sale/front-b-tab.webp    1x,
-              ./img/sale/front-b-tab@2x.webp 2x
-            "
-            media="(min-width: 768px)"
-          />
-          <source
-            srcset="
-              ./img/sale/front-b-mob.webp    1x,
-              ./img/sale/front-b-mob@2x.webp 2x
-            "
-            media="(max-width: 767px)"
-          />
-          <img
-            src="./img/sale/front-b-mob.webp"
-            alt="Watch photo front view 2"
-          />
-        </picture>
-        <picture class="section-sale-img">
-          <source
-            srcset="./img/sale/side-tab.webp 1x, ./img/sale/side-tab@2x.webp 2x"
-            media="(min-width: 768px)"
-          />
-          <source
-            srcset="./img/sale/side-mob.webp 1x, ./img/sale/side-mob@2x.webp 2x"
-            media="(max-width: 767px)"
-          />
-          <img src="./img/sale/side-mob.webp" alt="Watch photo side view" />
-        </picture>
-        <picture class="section-sale-img">
-          <source
-            srcset="./img/sale/back-tab.webp 1x, ./img/sale/back-tab@2x.webp 2x"
-            media="(min-width: 768px)"
-          />
-          <source
-            srcset="./img/sale/back-mob.webp 1x, ./img/sale/back-mob@2x.webp 2x"
-            media="(max-width: 767px)"
-          />
-          <img src="./img/sale/back-mob.webp" alt="Watch photo back view" />
+          <img src="./img/sale/sale-mob.webp" alt="Watch photo big" />
         </picture>
       </div>
-      <picture class="section-sale-img-preview">
-        <source
-          srcset="./img/sale/sale-tab.webp 1x, ./img/sale/sale-tab@2x.webp 2x"
-          media="(min-width: 768px)"
-        />
-        <source
-          srcset="./img/sale/sale-mob.webp 1x, ./img/sale/sale-mob@2x.webp 2x"
-          media="(max-width: 767px)"
-        />
-        <img src="./img/sale/sale-mob.webp" alt="Watch photo big" />
-      </picture>
       <div class="section-sale-description">
         <h3 class="section-sale-subtitle">
           MARQ&#174; Commander (Gen 2) - Carbon Edition
@@ -90,13 +115,13 @@
           material and has a precise AMOLED touch screen. The sensitive touch
           screen is complemented by buttons that can be used in any conditions.
         </p>
-        <ul class="section-sale-list">
-          <li class="section-sale-item">Fused carbon fiber</li>
-          <li class="section-sale-item">Grade-5 Titanuim</li>
-          <li class="section-sale-item">Athlete</li>
-          <li class="section-sale-item">Golfer</li>
-          <li class="section-sale-item">Commander</li>
-          <li class="section-sale-item">Adventurer</li>
+        <ul class="section-sale-benefits-list">
+          <li class="section-sale-benefits-item">Fused carbon fiber</li>
+          <li class="section-sale-benefits-item">Grade-5 Titanuim</li>
+          <li class="section-sale-benefits-item">Athlete</li>
+          <li class="section-sale-benefits-item">Golfer</li>
+          <li class="section-sale-benefits-item">Commander</li>
+          <li class="section-sale-benefits-item">Adventurer</li>
         </ul>
       </div>
     </div>
