@@ -30,6 +30,10 @@
   --cards: #f3f3f3;
 }
 /* Reset styles */
+html {
+  scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -40,9 +44,9 @@ p {
   margin: 0;
 }
 
-p:last-child {
+/* p:last-child {
   margin-bottom: 0;
-}
+} */
 
 ul {
   margin: 0;
@@ -66,15 +70,15 @@ img {
 }
 
 body {
-  font-family: "Gilroy";
+  font-family: 'Gilroy';
   font-weight: normal;
-  font-style: normal;
+  font-style: normal;  
 }
 
 /* mobile - без медіа правила, щоб це правило примінялося від 0 до 768 */
 .container {
   max-width: 375px;
-  min-width: 320px; 
+  min-width: 320px;
   padding: 0 20px;
   margin: 0 auto;
 }

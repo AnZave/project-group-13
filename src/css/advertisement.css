@@ -1,139 +1,126 @@
-  .advert {
-      padding-top: 60px;
-      padding-bottom: 60px;
-  }
-  /* CLASS FOR BACKGROUND IMAGE THE SECTION */
-  
-  .advert-bg {
-      width: 100%;
-      max-width: 288px;
-      max-height: 363px;
-      background-color: #0C0C0C;
-      background-image: url('../img/advertisement/advertisement-mob.webp');
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      border-radius: 30px;
-      /* margin: auto 60px;*/
-      margin-left: auto;
-      margin-right: auto;
-  }
-  /* CLASS FOR TEXT THE SECTION */
-  
-  .advert-text {
-      /*  font-family: "Gilroy", sans-serif;*/
-      color: #FBFBFB;
-      font-weight: 600;
-      font-size: 32px;
-      line-height: 1;
-      letter-spacing: -0.02em;
-      display: inline-block;
-      min-width: 279px;
-      padding-top: 60px;
-      padding-bottom: 28px;
-  }
-  
-  .advert-transparent-text {
-      color: rgba(251, 251, 251, 0.5);
-  }
-  /* CLASS FOR NAVIGATE BUTTON THE SECTION */
-  
-  .follow-to {
-      display: inline-block;
-      padding: 14px 20px;
-      width: 160px;
-      height: 48px;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 1.29;
-      text-align: center;
-      color: #FBFBFB;
-      border: 1px solid rgba(251, 251, 251, 0.15);
-      border-radius: 12px;
-      cursor: pointer;
-      margin-bottom: 60px;
-  }
-  
-  @media screen and (min-width: 768px) {
-      .advert {
-          padding-top: 80px;
-          padding-bottom: 80px;
-      }
-      .advert-bg {
-          max-width: 704px;
-          max-height: 425px;
-      }
-      .advert-text {
-          font-size: 48px;
-          line-height: 0.92;
-          min-width: 576px;
-          padding-top: 80px;
-          padding-bottom: 32px;
-      }
-      .follow-to {
-          margin-bottom: 64px;
-      }
-  }
-  
-  @media screen and (min-width: 1280px) {
-      .advert {
-          padding-top: 100px;
-          padding-bottom: 100px;
-      }
-      .advert-bg {
-          max-width: 1150px;
-          max-height: 298px;
-      }
-      .advert-text {
-          padding-top: 83px;
-          padding-bottom: 83px;
-          width: 690px;
-          gap: 140px;
-      }
-      .follow-to {
-          display: inline-block;
-          /*padding: 14px 20px;*/
-          width: 160px;
-          height: 48px;
-          vertical-align: top;
-          margin-top: 80px;
-          margin-left: 140px;
-      }
-  }
-  /*---MEDIA RULES FOR SELECTION A BACKGROUND IMAGE BASED ON DEVICE SCREEN AND PIXEL DENSITY--*/
-  
-  @media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-      .advert-bg {
-          background-image: url('../img/advertisement/advertisement-mob@2x.webp');
-      }
-  }
-  
-  @media screen and (min-width: 768px) {
-      .advert-bg {
-          width: 100%;
-          background-image: url('../img/advertisement/advertisement-tab.webp');
-      }
-      @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-          .advert-bg {
-              background-image: url('../img/advertisement/advertisement-tab@2x.webp');
-          }
-      }
-  }
-  
-  @media screen and (min-width: 1280px) {
-      .advert-bg {
-          width: 100%;
-          background-image: url('../img/advertisement/advertisement-ds.webp');
-      }
-      @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-          .advert-bg {
-              background-image: url('../img/advertisement/advertisement-ds@2x.webp');
-          }
-      }
-  }
+        /* CLASS FOR BACKGROUND IMAGE THE SECTION */
+        
+        .advertisement-bg {
+            width: 100%;
+            background-color: #0C0C0C;
+            background-image: url('../img/advertisement/advertisement-mob.webp');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: auto;
+            border-radius: 30px;
+            padding-top: 60px;
+            padding-left: 28px;
+            padding-right: 28px;
+            padding-bottom: 60px;
+        }
+        /* CLASS FOR TEXT THE SECTION */
+        
+        .advertisement-text {
+            color: #FBFBFB;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 1;
+            letter-spacing: -0.02em;
+            display: inline-block;
+            margin-bottom: 28px;
+        }
+        
+        .advertisement-transparent-text {
+            color: rgba(251, 251, 251, 0.5);
+        }
+        /* CLASS FOR NAVIGATE BUTTON THE SECTION */
+        
+        .follow-to {
+            display: inline-block;
+            padding: 14px 20px;
+            width: 160px;
+            height: 48px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 1.29;
+            text-align: center;
+            color: #FBFBFB;
+            border: 1px solid rgba(251, 251, 251, 0.15);
+            border-radius: 12px;
+            cursor: pointer;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        @media screen and (min-width: 768px) {
+            .advertisement-bg {
+                padding-top: 80px;
+                padding-left: 64px;
+                padding-right: 64px;
+                padding-bottom: 80px;
+            }
+            .advertisement-text {
+                font-size: 48px;
+                line-height: 92%;
+                letter-spacing: -0.02em;
+                margin-bottom: 32px;
+            }
+        }
+        
+        @media screen and (min-width: 1280px) {
+            .advertisement-bg {
+                padding-top: 80px;
+                padding-bottom: 80px;
+                padding-right: 80px;
+                padding-left: 80px;
+            }
+            .advertisement-text {
+                max-width: 690px;
+                margin-bottom: 0;
+            }
+            .follow-to {
+                display: inline-block;
+                padding: 14px 20px;
+                width: 160px;
+                height: 48px;
+                vertical-align: top;
+                margin-left: 135px;
+            }
+        }
+        /*---MEDIA RULES FOR SELECTION A BACKGROUND IMAGE BASED ON DEVICE SCREEN AND PIXEL DENSITY--*/
+        
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .advertisement-bg {
+                background-image: url('../img/advertisement/advertisement-mob@2x.webp');
+            }
+        }
+        
+        @media screen and (min-width: 768px) {
+            .advertisement-bg {
+                /*width: 100%;*/
+                background-image: url('../img/advertisement/advertisement-tab.webp');
+            }
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                .advertisement-bg {
+                    background-image: url('../img/advertisement/advertisement-tab@2x.webp');
+                }
+            }
+        }
+        
+        @media screen and (min-width: 1280px) {
+            .advertisement-bg {
+                /*  width: 100%;*/
+                background-image: url('../img/advertisement/advertisement-ds.webp');
+            }
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+                .advertisement-bg {
+                    background-image: url('../img/advertisement/advertisement-ds@2x.webp');
+                }
+            }
+        }
+        
+        .follow-to:hover,
+        .follow-to:focus {
+            color: #0C0C0C;
+            background-color: #FBFBFB;
+        }
