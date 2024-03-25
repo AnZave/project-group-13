@@ -7,6 +7,7 @@ document.querySelector('.mob-menu-btn').addEventListener('click', function () {
   document.querySelector('.mob-menu').classList.toggle('is-open');
 });
 
+
 // // собираем все якоря; устанавливаем время анимации и количество кадров
 // const anchors = [].slice.call(document.querySelectorAll('a[href*="#"]')),
 //       animationTime = 300,
