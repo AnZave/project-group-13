@@ -9,6 +9,7 @@
   background-color: var(--main);
   border-radius: 30px;
   margin: 0 auto;
+  margin-bottom: 20px;
   min-width: 280px;
   max-width: 335px;
   padding: 40px 28px 28px;
@@ -174,6 +175,7 @@
   .footer-container {
     max-width: 704px;
     padding: 40px 40px 28px;
+    margin-bottom: 32px;
   }
 
   .footer-wrapper-one {
@@ -269,6 +271,7 @@
 @media only screen and (min-width: 1280px) {
   .footer-container {
     max-width: 1216px;
+    margin-bottom: 0;
   }
 
   .footer-wrapper-one {

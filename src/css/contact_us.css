@@ -108,13 +108,15 @@ border: none;
 
 .contact-form-btn:hover{
   background-color:#1f3cd4;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 /* FORM SECTION CONTACT_US 768 */
 @media only screen and (min-width: 768px) {
   .page-contact-us{
     padding-bottom: 80px;
   }
-.title-page-contact-u{
+.title-page-contact-us{
   font-size: 48px;
 line-height: 0.92;
 margin-bottom: 40px;
@@ -139,10 +141,11 @@ margin-bottom: 40px;
 .contact-form-input::placeholder{
   font-size: 16px;
   line-height: 1.25;
+
 }
 
 .contact-textarea-form{
-  padding: 16px 16px 54px 16px;
+  padding: 16px 16px;
 margin-bottom: 32px;
   height: 90px;
 }

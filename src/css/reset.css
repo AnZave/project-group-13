@@ -30,6 +30,10 @@
   --cards: #f3f3f3;
 }
 /* Reset styles */
+html {
+  scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -68,7 +72,7 @@ img {
 body {
   font-family: 'Gilroy';
   font-weight: normal;
-  font-style: normal;
+  font-style: normal;  
 }
 
 /* mobile - без медіа правила, щоб це правило примінялося від 0 до 768 */
