@@ -2,6 +2,7 @@
     .mob-menu-container {
             padding-left: 0;
             height: 100%;
+            padding-top: 40px;
         }
 
         .mob-menu-container-second {
@@ -11,6 +12,7 @@
             align-items: center;
             height: 100%;
             justify-content: space-between;
+            gap: 24px;
         }
     
         .mob-menu {
@@ -22,6 +24,7 @@
             right: 0;
             width: 200px;
             height: 100%;
+            overflow-y: auto;
             background: #ffffff;
             opacity: 0;
             z-index: 4;
@@ -60,7 +63,7 @@
 
         .mob-menu-page {
             margin-bottom: auto;
-            padding-top: 240px;
+            margin-top: auto;
         }
         .mob-menu-btn {
             position: absolute;
@@ -74,7 +77,12 @@
             align-items: center;
             justify-content: center;
             padding: 0;
+            
         }
+                .mob-menu-btn:hover .mob-menu-close-icon,
+                .mob-menu-btn:focus .mob-menu-close-icon {
+                    stroke: #3350E9;
+                }
 
         .mob-menu-close-icon {
             stroke: #c8c8c8;
@@ -89,17 +97,19 @@
             color: #fbfbfb;
         }
     
-        .mob-menu-item {
+        .mob-menu-item-link {
             display: block;
+            padding-bottom: 10px;
             position: relative;
             transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
     
-        .mob-menu-item::after {
+        .mob-menu-item-link::after {
             content: "";
             position: absolute;
             display: block;
             left: 50%;
+            bottom: -1px;
             margin-left: -4px;
             width: 8px;
             height: 8px;
@@ -110,7 +120,7 @@
             transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
     
-        .mob-menu-item:is(.current, :hover, :focus)::after {
+        .mob-menu-item-link:is(.current, :hover, :focus)::after {
             opacity: 1;
         }
 }
@@ -120,16 +130,18 @@
 @media only screen and (min-width: 376px) and (max-width: 1280px) {
     .mob-menu-container {
             padding-left: 0;
-            height: 100%;       
+            height: 100%;  
+            padding-top: 50px;     
     }
         
         .mob-menu-container-second {
-            position: absolute;
+            
             display: flex;
             flex-direction: column;
             align-items: center;
             height: 100%;
             justify-content: space-between;
+            gap: 32px;
     
         }
     .mob-menu {
@@ -142,15 +154,11 @@
             background: #ffffff;
             opacity: 0;
             z-index: 4;
+            overflow-y: auto;
             background-color: #0C0C0C;
             visibility: hidden;
             transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-            
-            padding-bottom: 50px;
-            padding-left: 101px;
-            padding-right: 101px;
-           
             background-image: url('../img/menu/menu-tab.webp');
             }
 
@@ -170,12 +178,11 @@
             display: flex;
             gap: 10px;
             justify-content: center;
-            padding-bottom: 50px;
         }
 
     .mob-menu-page {
             margin-bottom: auto;
-            padding-top: 310px;
+            margin-top: auto;
         }
 
     .mob-menu-btn {
@@ -204,16 +211,19 @@
             
         }
 
-    .mob-menu-item {
+    .mob-menu-item-link {
         display: block;
         position: relative;
+        padding-bottom: 10px;
+        
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
-    .mob-menu-item::after {
+    .mob-menu-item-link::after {
             content: "";
             position: absolute;
             display: block;
             left: 50%;
+            bottom: -1px;
             margin-left: -4px;
             width: 8px;
             height: 8px;
@@ -223,7 +233,7 @@
             color: #3350E9;
             transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
-    .mob-menu-item:is(.current, :hover, :focus)::after {
+    .mob-menu-item-link:is(.current, :hover, :focus)::after {
             opacity: 1;
         }
 }
@@ -233,22 +243,24 @@
                 display: none;
             }
 }
-.mob-menu-svg-icon-social {
+.mob-menu-social-list-item-link {
     fill: #fbfbfb;
     
 }
 
-.mob-menu-svg-icon-social:hover,
-.mob-menu-svg-icon-social:focus {
+.mob-menu-social-list-item-link:hover,
+.mob-menu-social-list-item-link:focus {
     
-    fill: #f3d3d3;
+    fill: #3350E9;
 }
-
 .mob-menu-close-icon {
-    stroke: #c8c8c8;
+    stroke: #fbfbfb;
+}
+.mob-menu-btn {
+    stroke: #fbfbfb;
 }
 
-.mob-menu-close-icon:hover, 
-.mob-menu-close-icon:focus {
-    stroke: #f3d3d3;
+.mob-menu-btn .mob-menu-close-icon:hover, 
+.mob-menu-btn .mob-menu-close-icon:focus {
+    stroke: #3350E9;
 }
