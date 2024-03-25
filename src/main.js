@@ -6,3 +6,5 @@ document.querySelector('.mobile-menu-open-btn').addEventListener('click', functi
 document.querySelector('.mob-menu-btn').addEventListener('click', function () {
   document.querySelector('.mob-menu').classList.toggle('is-open');
 });
+
+import './js/swiper';
