@@ -1,9 +1,7 @@
-
-
 .footer {
-  padding: 0 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
-
 
 .footer-container {
   background-color: var(--main);
@@ -13,7 +11,6 @@
   min-width: 280px;
   max-width: 335px;
   padding: 40px 28px 28px;
-  
 }
 
 .footer-wrapper-one {
@@ -46,8 +43,6 @@
   justify-content: center;
   align-items: baseline;
 }
-
-
 
 .media-link {
   fill: var(--background);
@@ -168,9 +163,9 @@
 
 @media only screen and (min-width: 768px) {
   .footer {
-  padding: 0;
-}
-
+    padding-top: 40px;
+    padding-bottom: 32px;
+  }
 
   .footer-container {
     max-width: 704px;
@@ -269,6 +264,10 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .footer {
+    padding-top: 50px;
+  }
+
   .footer-container {
     max-width: 1216px;
     margin-bottom: 0;

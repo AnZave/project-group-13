@@ -72,7 +72,7 @@ img {
 body {
   font-family: 'Gilroy';
   font-weight: normal;
-  font-style: normal;  
+  font-style: normal;
 }
 
 /* mobile - без медіа правила, щоб це правило примінялося від 0 до 768 */
@@ -99,24 +99,24 @@ body {
   }
 }
 
-/* .section {
-  padding-bottom: 30px;
+.section {
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-@media only screen and (min-width: 768pxpx) {
+@media only screen and (min-width: 768px) {
   .section {
-    padding-bottom: 40px;
     padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .section {
-    padding-bottom: 50px;
     padding-top: 50px;
+    padding-bottom: 50px;
   }
-} */
+}
 
 .visually-hidden {
   position: absolute;

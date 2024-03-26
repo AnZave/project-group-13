@@ -86,9 +86,6 @@
   transform: scale(1.5);
   background-image: linear-gradient(120deg, #bd34fe 30%, #41d1ff);
 }
-.page-reviews {
-  padding-bottom: 60px;
-}
 .reviews-title {
   font-weight: 600;
   font-size: 32px;
@@ -133,9 +130,6 @@
   color: rgba(12, 12, 12, 0.4);
 }
 @media screen and (min-width: 768px) {
-  .page-reviews {
-    padding-bottom: 80px;
-  }
   .reviews-title {
     font-weight: 600;
     font-size: 48px;
@@ -160,9 +154,6 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .page-reviews {
-    padding-bottom: 100px;
-  }
   .reviews-list {
     gap: 4px;
     align-items: center;

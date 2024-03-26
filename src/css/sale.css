@@ -1,7 +1,4 @@
-.section-sale {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
+/* #region Mobile styles */
 
 .section-sale-title {
   font-weight: 600;
@@ -126,12 +123,11 @@
   color: var(--background);
 }
 
-@media only screen and (min-width: 768px) {
-  .section-sale {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
+/* #endregion */
 
+/* #region Tablet styles */
+
+@media only screen and (min-width: 768px) {
   .section-sale-title {
     font-size: 48px;
     line-height: 0.92;
@@ -195,12 +191,11 @@
   }
 }
 
-@media only screen and (min-width: 1280px) {
-  .section-sale {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
+/* #endregion */
 
+/* #region Desktop styles */
+
+@media only screen and (min-width: 1280px) {
   .section-sale-img-item {
     height: 100%;
   }
@@ -227,3 +222,5 @@
     margin-bottom: 50px;
   }
 }
+
+/* #endregion */
