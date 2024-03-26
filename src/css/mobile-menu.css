@@ -165,6 +165,12 @@
             transition: transform 250ms ease-in-out;
             background-image: url('../img/menu/menu-tab.webp');
             }
+            
+            .mob-menu.is-open {
+                opacity: 1;
+                visibility: visible;
+                transform: translateX(0);
+}
 
             @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -173,12 +179,7 @@
             background-image: url('../img/menu/menu-tab@2x.webp');
             }
         }
-    .mob-menu.is-open {
-            opacity: 1;
-            visibility: visible;
-            transform: translateX(0);
-        }
-
+    
     .mob-menu-social-list {
             display: flex;
             gap: 10px;
