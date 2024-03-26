@@ -45,26 +45,26 @@ new Swiper('.swiper', {
   },
 });
 
-new Swiper('.swiper-modal', {
-  slidesPerView: 1,
-  spaceBetween: 24,
+// new Swiper('.swiper-modal', {
+//   slidesPerView: 1,
+//   spaceBetween: 24,
 
-  autoplay: {
-    delay: 3000,
-  },
+//   autoplay: {
+//     delay: 3000,
+//   },
 
-  pagination: {
-    el: '.swiper-pagination-modal',
-    clickable: true,
-  },
+//   pagination: {
+//     el: '.swiper-pagination-modal',
+//     clickable: true,
+//   },
 
-  breakpoints: {
-    400: {
-      slidesPerView: 2,
-    },
+//   breakpoints: {
+//     400: {
+//       slidesPerView: 2,
+//     },
 
-    600: {
-      slidesPerView: 3,
-    },
-  },
-});
+//     600: {
+//       slidesPerView: 3,
+//     },
+//   },
+// });
