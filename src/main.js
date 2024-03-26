@@ -1,11 +1,3 @@
 import './js/swiper';
-document.querySelector('.mobile-menu-open-btn').addEventListener('click', function () {
-  document.querySelector('.mob-menu').classList.toggle('is-open');
-});
-
-document.querySelector('.mob-menu-btn').addEventListener('click', function () {
-  document.querySelector('.mob-menu').classList.toggle('is-open');
-});
-
-
-
+import './js/mobile-menu';
+import './js/aos';

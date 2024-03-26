@@ -27,7 +27,6 @@
 .swiper-rtl .swiper-button-prev:after {
   /* стилі правої стрілки */
 }
-
 .page-reviews {
   padding-bottom: 60px;
 }
@@ -75,9 +74,6 @@
   color: rgba(12, 12, 12, 0.4);
 }
 @media screen and (min-width: 768px) {
-  .page-reviews {
-    padding-bottom: 80px;
-  }
   .reviews-title {
     font-weight: 600;
     font-size: 48px;
@@ -102,9 +98,6 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .page-reviews {
-    padding-bottom: 100px;
-  }
   .reviews-list {
     gap: 4px;
     align-items: center;
