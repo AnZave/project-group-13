@@ -15,7 +15,7 @@
     <title>WatchCharm</title>
     
     <script type="module" crossorigin src="/project-group-13/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-group-13/assets/index-62abda1b.css">
+    <link rel="stylesheet" href="/project-group-13/assets/index-0f4b4040.css">
   </head>
   <body>
     
@@ -69,7 +69,8 @@
                 </a>
             </li>
         </ul>
-        <button class="mobile-menu-open-btn" type="button">
+        <button class="mobile-menu-open-btn js-open-menu" type="button" aria-expanded="false"
+          aria-controls="mobile-menu">
             <svg class="svg-icon-menu" width="34" height="34" aria-label="menu open icon">
                 <use href="/project-group-13/assets/sprite-1f5773b9.svg#icon-menu"></use>
             </svg>
@@ -771,9 +772,9 @@
 
     <!-- End Section page-footer -->
     <!-- Section mob-menu -->
-    <div class="mob-menu">
+    <div class="mob-menu js-menu-container" id="mobile-menu">
     <div class="mob-menu-container">
-        <button class="mob-menu-btn" type="button">
+        <button class="mob-menu-btn js-close-menu" type="button">
                 <svg class="mob-menu-close-icon" width="17" height="17" aria-label="close icon">
                     <use href="/project-group-13/assets/sprite-1f5773b9.svg#icon-close"></use>
                 </svg>
@@ -834,6 +835,11 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- End Swiper -->
 
+    <!-- Mobile-menu-close -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"></script>
+    <!-- End Mobile-menu-close -->
     <!-- script connection section -->
     
     <!-- End script connection section -->
