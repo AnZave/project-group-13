@@ -2,7 +2,7 @@
     .mob-menu-container {
             padding-left: 0;
             height: 100%;
-            padding-top: 114px;
+            padding-top: 40px;
             padding-bottom: 40px;
             overflow-x: hidden;
         }
@@ -28,7 +28,7 @@
             height: 100%;
             overflow-y: auto;
             background: #ffffff;
-            z-index: 5;
+            z-index: 999;
             background-color: #0C0C0C;
             /* opacity: 0;
             visibility: hidden; */
@@ -129,7 +129,7 @@
     .mob-menu-container {
             padding-left: 0;
             height: 100%;  
-            padding-top: 138px;   
+            padding-top: 50px;   
             padding-bottom: 50px;
             
     }
@@ -152,7 +152,7 @@
             width: 300px;
             height: 100%;
             background: #ffffff;
-            z-index: 5;
+            z-index: 999;
             overflow-y: auto;
             background-color: #0C0C0C;
             /* opacity: 0; */
