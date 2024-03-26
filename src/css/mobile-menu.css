@@ -2,12 +2,13 @@
     .mob-menu-container {
             padding-left: 0;
             height: 100%;
-            padding-top: 40px;
+            padding-top: 114px;
+            padding-bottom: 40px;
             overflow-x: hidden;
         }
 
         .mob-menu-container-second {
-            position: absolute;
+            
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -34,9 +35,8 @@
             transform: translateX(100%);
             transition: transform 250ms ease-in-out;
             
-            padding-bottom: 40px;
-            padding-left: 64px;
-            padding-right: 64px; 
+            
+            
             background-image: url('../img/menu/menu-mob.webp');
         }
 
@@ -52,17 +52,11 @@
                  background-image: url('../img/menu/menu-mob@2x.webp');
              }
          }
-        /* .mob-menu-list {
-            padding-bottom: 260px;
-        } */
-    
-        
-    
+
         .mob-menu-social-list {
             display: flex;
             gap: 10px;
             justify-content: center; 
-            padding-bottom: 40px;
         }
 
         .mob-menu-page {
@@ -71,7 +65,7 @@
         }
         .mob-menu-btn {
             position: absolute;
-            top: 20px;
+            top: 94px;
             right: 20px;
             width: 34px;
             height: 34px;
@@ -135,7 +129,8 @@
     .mob-menu-container {
             padding-left: 0;
             height: 100%;  
-            padding-top: 50px;   
+            padding-top: 138px;   
+            padding-bottom: 50px;
             
     }
         
@@ -194,7 +189,7 @@
 
     .mob-menu-btn {
             position: absolute;
-                top: 26px;
+                top: 114px;
                 right: 32px;
                 width: 40px;
                 height: 40px;
