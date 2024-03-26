@@ -3,6 +3,7 @@
             padding-left: 0;
             height: 100%;
             padding-top: 40px;
+            overflow-x: hidden;
         }
 
         .mob-menu-container-second {
@@ -134,7 +135,8 @@
     .mob-menu-container {
             padding-left: 0;
             height: 100%;  
-            padding-top: 50px;     
+            padding-top: 50px;   
+            overflow-x: hidden;
     }
         
         .mob-menu-container-second {
