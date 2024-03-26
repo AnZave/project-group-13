@@ -4,7 +4,7 @@
     data-aos="zoom-out-left" 
     data-aos-easing="ease-out-cubic"
     data-aos-duration="1000">Catalog</h2>
-    <ul class="catalog-list">
+    <ul class="catalog-list" data-catalog>
       <li class="catalog-item">
         <div class="catalog-item-card">
           <picture>
@@ -168,9 +168,16 @@
               "
               media="(min-width: 768px)"
             />
+            <source
+              srcset="
+              /img/catalog/fenix-6-pro-mob.webp 1x,
+              /img/catalog/fenix-6-pro-mob@2x.webp 2x
+              "
+              media="(max-width: 767px)"
+            />
             <img
               class="catalog-card-img"
-              src="/img/catalog/fenix-6-pro-tab.webp"
+              src="../img/catalog/fenix-6-pro-mob.webp"
               alt="image-watch"
             />
           </picture>
@@ -197,9 +204,16 @@
               "
               media="(min-width: 768px)"
             />
+            <source
+              srcset="
+              /img/catalog/tube-watch-s42-mob.webp 1x,
+              /img/catalog/tube-watch-s42-mob@2x.webp 2x
+              "
+              media="(max-width: 767px)"
+            />
             <img
               class="catalog-card-img"
-              src="/img/catalog/tube-watch-s42-tab.webp"
+              src="/img/catalog/tube-watch-s42-mob.webp"
               alt="image-watch"
             />
           </picture>
@@ -212,6 +226,6 @@
         </div>
       </li>
     </ul>
-    <button class="catalog-btn" type="button">Show more</button>
+    <button class="catalog-btn" type="button" data-catalog-btn>Show more</button>
   </div>
 </section>
