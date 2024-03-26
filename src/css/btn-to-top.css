@@ -1,8 +1,8 @@
 .btn-to-top {
     position: fixed;
-    bottom: 50px;
-    right: 50px;
-    z-index: 99;
+    bottom: 20px;
+    right: 20px;
+    z-index: 4;
 
     display: flex;
     align-items: center;
@@ -15,7 +15,7 @@
     box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 
-    font-size: 20px;
+    font-size: 14px;
     transition: opacity 0.3s linear, visibility 0.3s linear, transform 0.3s linear;
 }
 
@@ -70,4 +70,10 @@
         opacity: 0;
         transform: scale(1.7, 1.7);
     }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 1280px) {
+    .btn-to-top {
+            font-size: 16px;
+}
 }
