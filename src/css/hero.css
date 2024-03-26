@@ -1,6 +1,6 @@
 /* ========= Page Hero styles ========= */
 .page-hero {
-  padding-top: 60px;
+  padding-top: 134px;
   padding-bottom: 30px;
 }
 
@@ -72,7 +72,7 @@
 
 @media screen and (min-width: 768px) {
   .page-hero {
-    padding-top: 80px;
+    padding-top: 172px;
     padding-bottom: 40px;
   }
   .page-hero-description-container {
@@ -120,6 +120,7 @@
 }
 @media screen and (min-width: 1280px) {
   .page-hero {
+    padding-top: 168px;
     padding-bottom: 50px;
   }
   .page-hero-description-title {
