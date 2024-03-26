@@ -99,7 +99,7 @@
 }
 @media screen and (min-width: 1280px) {
   .reviews-list {
-    gap: 4px;
+    
     align-items: center;
   }
   .reviews-items {
