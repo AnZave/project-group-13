@@ -3,10 +3,10 @@
 }
 
 .swiper {
-  padding: 5px;
+  padding: 5px 5px 10px;
   margin: -5px;
   overflow: hidden;
-  padding-bottom: 40px;
+  
 }
 .swiper .swiper-pagination-bullets {
   position: static;
