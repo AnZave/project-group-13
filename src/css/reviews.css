@@ -6,26 +6,32 @@
   padding: 5px;
   margin: -5px;
   overflow: hidden;
+  padding-bottom: 40px;
 }
-.swiper-button-prev,
-.swiper-button-next {
-  top: 155px;
-}
-
-.swiper-button-next:after,
-.swiper-button-prev:after {
-  /* можна змінити стилі стрілок */
-  color: #3350ed;
-}
-
-.swiper-button-prev:after,
-.swiper-rtl .swiper-button-next:after {
-  /* стилі лівої стрілки */
+.swiper .swiper-pagination-bullets {
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 2rem;
 }
 
-.swiper-button-next:after,
-.swiper-rtl .swiper-button-prev:after {
-  /* стилі правої стрілки */
+.swiper .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+
+  margin: 0 !important;
+  border-radius: 50%;
+  border: none;
+  opacity: 1;
+  background-color: rgb(200, 205, 209);
+  transition: transform 250ms linear;
+}
+
+.swiper .swiper-pagination-bullet-active {
+  transform: scale(1.5);
+  background-image: linear-gradient(120deg, #3350e9 30%, #0c0c0c);
 }
 .page-reviews {
   padding-bottom: 60px;
@@ -99,7 +105,6 @@
 }
 @media screen and (min-width: 1280px) {
   .reviews-list {
-    
     align-items: center;
   }
   .reviews-items {
